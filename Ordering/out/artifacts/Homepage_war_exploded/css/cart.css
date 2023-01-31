@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.mainTable {
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.mainTable tr:nth-of-type(even) {
+    background: #f7fbfc;
+}
+
+.mainTable tr:nth-of-type(odd) {
+    background: #c3dcf1;
+}
+
+.mainTable tr td {
+    border: 1px solid #fff;
+}
+
+.mainTable tr:first-child td {
+    border: 0px;
+}
+.shop1{
+    background-color: #2e6da4;
+    width:227px;
+    height:28px;
+    float:left;
+    color:white;
+    text-align:center;
+    line-height: 28px;
+    border-radius: 4px;
+    display: inline;
+}
+.blank{
+    background-color:white;width:4px;height:28px;float:left;
+}
+.shop2{
+    background: #D3D3D3;
+    width:227px;
+    height:28px;
+    float:left;
+    color:black;
+    text-align:center;
+    line-height: 28px;
+    border-radius:4px;
+}
+.bn{
+    height: 30px;
+    width: 90px;
+    background: #2e6da4;
+    border-radius: 5px;
+    color: white;
+    border: 1px #2e6da4;
+    font-size: 16px;
+}
+/*body {*/
+/*    width: 90%;*/
+/*    position: absolute;*/
+/*    left: 5%;*/
+/*}*/

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/takeout" auth="Container" type="javax.sql.DataSource"
+              maxTotal="800" maxIdle="100" initialSize="30" maxWaitMillis="10000"
+              removeAbandonedOnBorrow="true" removeAbandonedTimeout="60"
+              logAbandoned="true"
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+              url="jdbc:sqlserver://localhost:1433;DatabaseName=takeout"
+              username="sa" password="123456" />
+</Context>

@@ -1,0 +1,37 @@
+hr{
+    height: 1.5px;
+    background-color: lightblue;
+    border: none;
+    width: 85%;
+}
+input{
+    line-height: 23px;
+}
+.box { /* 所有 div 类为 box 的样式 */
+    position:relative;
+    line-height:160%;
+    margin:6px;
+}
+.i-label{ /*所有 label 类为 i-label 的样式*/
+    position:absolute;
+    left:20px;
+    width:90px;
+    text-align:right;
+}
+/*.i-text{ !* 所有 label 类为 i-text 的样式 *!*/
+/*    position:relative;*/
+/*    left:40px;*/
+/*    width:150px;*/
+/*}*/
+.btn {
+    margin-top: -60px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border:  1px #c3dcf1 solid;
+    background-color: transparent;
+    line-height: 20px;
+    padding-top: 3px;
+}

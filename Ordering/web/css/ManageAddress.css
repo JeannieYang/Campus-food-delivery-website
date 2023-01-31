@@ -1,0 +1,49 @@
+.container {
+	width: 80%;
+	padding: 10px;
+	border: 1px dotted #97FFFF;
+	background-color: #F0F8FF;
+	border-radius: 30px;
+	margin:0 auto;
+	margin-top: 200px;
+	height: 530px;
+	overflow-y: auto;
+}
+
+.one {
+	width: 90%;
+	padding: 15px;
+	border: 1px dotted #FFB5C5;
+	background-color: lightgray;
+	border-radius: 20px;
+	margin:0 auto;
+	margin-top: 10px;
+	height: 35px;
+}
+
+.tianjia {
+	clear:both;
+	border:1px dotted #FF6347;
+}
+
+body {
+	background-image: url(../images/ManageAddress.png);
+	font-family: "微软雅黑";
+	font-size: 15px;
+	background-size: cover;
+}
+
+button {
+	border: none;
+	background-color: lightgray;
+}
+
+.sex {
+	font-size: 10px;
+	color: #363636;
+	font-weight: bold;
+}
+
+.number {
+	font-size: 12px;
+}

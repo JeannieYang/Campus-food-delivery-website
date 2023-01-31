@@ -1,0 +1,34 @@
+form {
+	height: 300px;
+	width: 450px;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 275px;
+	margin-left: 775px;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+form div {
+	margin: 15px;
+}
+
+body {
+	background: url(../images/AddAddress.png);
+	background-size: cover;
+}
+
+input {
+	border-bottom: 1px solid grey;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+button {
+	background-color: white;
+	border: 1px solid pink;
+	font-size: 13px;
+}
